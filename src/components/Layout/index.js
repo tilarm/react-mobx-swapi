@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Logo from './Logo';
 import './style.css';
-import Home from '../Home';
+import HomeContainer from '../../containers/HomeContainer';
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
           <Logo/>
         </div>
         <div className="App-intro">
-          <Home/>
+          <HomeContainer/>
         </div>
       </div>
     );
